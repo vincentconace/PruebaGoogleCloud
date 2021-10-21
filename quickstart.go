@@ -89,7 +89,7 @@ func saveToken(path string, token *oauth2.Token) {
 
 func main() {
 	ctx := context.Background()
-	b, err := ioutil.ReadFile("credentials.json")
+	b, err := ioutil.ReadFile("client_secret_4431693249-ii6e25v04cbafghjat57vj1grmao6t9s.apps.googleusercontent.com.json")
 	if err != nil {
 		log.Fatalf("Unable to read client secret file: %v", err)
 	}
